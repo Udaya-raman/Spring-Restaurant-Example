@@ -28,15 +28,15 @@ This application is designed to manage restaurants and their reviews. It include
 
 ## Restaurant Endpoints
 
--GET /restaurants: Retrieve a list of all restaurants.
--POST /restaurants: Create a new restaurant (expects JSON payload).
--DELETE /restaurants/{id}: Delete a restaurant by its ID.
+-**GET /restaurants: Retrieve a list of all restaurants.
+-**POST /restaurants: Create a new restaurant (expects JSON payload).
+-**DELETE /restaurants/{id}: Delete a restaurant by its ID.
 
 ## Review Endpoints
 
--POST /reviews: Create or update a review (expects JSON payload).
--GET /reviews: Retrieve all reviews.
--GET /reviews/{id}: Retrieve a review by its ID.
--DELETE /reviews/{id}: Delete a review by its ID.   
+-**POST /reviews: Create or update a review (expects JSON payload).
+-**GET /reviews: Retrieve all reviews.
+-**GET /reviews/{id}: Retrieve a review by its ID.
+-**DELETE /reviews/{id}: Delete a review by its ID.   
 
 
